@@ -14,7 +14,6 @@ import type {
   PromotionApi,
   ExperienceApi,
   SpotApi,
-  InstagramApi,
 } from '../api'
 import type { CustomErrorMessage } from '~/plugins/api-error-handler'
 
@@ -33,7 +32,6 @@ declare module 'pinia' {
     authApiClient: (token?: string | undefined) => AuthApi
     authUserApiClient: (token?: string | undefined) => AuthUserApi
     topPageApiClient: (token?: string | undefined) => TopApi
-    instagramApiClient: (token?: string | undefined) => InstagramApi
     productApiClient: (token?: string | undefined) => ProductApi
     cartApiClient: (token?: string) => CartApi
     addressApiClient: (token?: string) => AddressApi
