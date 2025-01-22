@@ -384,7 +384,7 @@ useSeoMeta({
         </blockquote>
         <div
           class="mt-4"
-          :v-html="OEmbedHTML"
+          v-html="OEmbedHTML"
         />
       </the-content-box>>
 
